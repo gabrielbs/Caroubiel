@@ -1,0 +1,40 @@
+/* line 4, ../sass/main.scss */
+.carousel {
+  border: 1px solid;
+  width: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* line 10, ../sass/main.scss */
+.carousel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 15, ../sass/main.scss */
+.carousel ul li {
+  background-color: #f0f;
+  float: left;
+}
+/* line 18, ../sass/main.scss */
+.carousel ul li:nth-child(1) {
+  background-color: red;
+}
+/* line 19, ../sass/main.scss */
+.carousel ul li:nth-child(2) {
+  background-color: blue;
+}
+/* line 20, ../sass/main.scss */
+.carousel ul li:nth-child(3) {
+  background-color: pink;
+}
+/* line 21, ../sass/main.scss */
+.carousel ul li:nth-child(4) {
+  background-color: green;
+}
+/* line 22, ../sass/main.scss */
+.carousel ul li:nth-child(5) {
+  background-color: purple;
+}
