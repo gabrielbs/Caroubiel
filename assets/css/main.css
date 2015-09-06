@@ -1,40 +1,65 @@
-/* line 4, ../sass/main.scss */
+/* line 3, ../sass/main.scss */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 9, ../sass/main.scss */
 .carousel {
   border: 1px solid;
   width: 50%;
   margin: 0 auto;
   overflow: hidden;
 }
-/* line 10, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 .carousel ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   *zoom: 1;
 }
-/* line 15, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 .carousel ul li {
   background-color: #f0f;
+  width: 500px;
+  height: 300px;
   float: left;
 }
-/* line 18, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
 .carousel ul li:nth-child(1) {
   background-color: red;
 }
-/* line 19, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 .carousel ul li:nth-child(2) {
   background-color: blue;
 }
-/* line 20, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 .carousel ul li:nth-child(3) {
   background-color: pink;
 }
-/* line 21, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 .carousel ul li:nth-child(4) {
   background-color: green;
 }
-/* line 22, ../sass/main.scss */
+/* line 26, ../sass/main.scss */
 .carousel ul li:nth-child(5) {
   background-color: purple;
+}
+
+/* line 31, ../sass/main.scss */
+.bullet-navigation {
+  width: 500px;
+  margin: 0 auto;
+}
+/* line 34, ../sass/main.scss */
+.bullet-navigation li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #5500ff;
+  cursor: pointer;
+}
+/* line 41, ../sass/main.scss */
+.bullet-navigation li.active {
+  background-color: #aa00ff;
 }
