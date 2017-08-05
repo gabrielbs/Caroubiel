@@ -1,7 +1,9 @@
 # Caroubiel.
 
-## Classe de carrossel para programadores feita em jQuery.
+### A jQuery plugin for carousel
 
-* Evento de Click prev / next
-* Evento de Swipe 
-* Bullets de navegação
+* Click event for prev / next buttons
+* Swipe event
+* Bullets of navigation
+
+This project was created for javascript study
